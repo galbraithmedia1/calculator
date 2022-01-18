@@ -18,4 +18,20 @@ reader.question("What would you like to calculate?", function(input){
 	// This line closes the connection to the command line interface.
 	reader.close()
 
+	if (mathSymbol === "+"){
+		console.log(num1 + num2)
+	}
+	if (mathSymbol === "-"){
+		console.log(num1 - num2)
+	}
+	if ( mathSymbol === "*"){
+		console.log(num1 * num2)
+	}
+	if ( mathSymbol === "/"){
+		console.log(num1 / num2)
+	}
+	if ( mathSymbol ===  "square"){
+		console.log(Math.sqrt(num1))
+	}
+
 });
